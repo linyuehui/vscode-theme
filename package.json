@@ -1,21 +1,42 @@
 {
-  "name": "sublime-text-3",
-  "displayName": "sublime-text-3",
-  "description": "sublime text 3",
-  "version": "1.0.0",
-  "engines": {
-    "vscode": "^1.83.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "shine",
-        "uiTheme": "vs-dark",
-        "path": "./themes/shine-color-theme.json"
-      }
-    ]
-  }
+	"name": "sublime-text-3",
+	"displayName": "Sublime Text 3",
+	"description": "Sublime Text 3 theme for Visual Studio Code",
+	"version": "1.0.4",
+	"tags": [
+		"monokai",
+		"dark",
+		"sublime",
+		"text",
+		"theme"
+	],
+	"bin": "./themes/shine-color-theme.json",
+	"publishConfig": {
+		"registry": "https://marketplace.visualstudio.com/items?itemName=Shine.sublime-text-3&ssr=false#overview",
+		"access": "public",
+		"tag": "latest"
+	},
+	"engines": {
+		"vscode": "^1.83.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"publisher": "Shine",
+	"icon": "icon.jpg",
+	"author": {
+		"name": "Shine"
+	},
+	"config": {
+		"theme": "monokai-color-theme.json"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Sublime Text 3",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai-color-theme.json"
+			}
+		]
+	}
 }
